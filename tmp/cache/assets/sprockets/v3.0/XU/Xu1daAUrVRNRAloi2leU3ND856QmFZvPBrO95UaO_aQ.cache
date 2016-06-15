@@ -1,0 +1,28 @@
+{:uriI"¢file://app/assets/javascripts/angular/templates/popup/reset-password.popup.html?type=text/html&id=4bb48873e4981e87c49850f53d5f99a6970f52737d056087cc6197f2de278f7a:ET:load_pathI"app/assets/javascripts;T:filenameI"Mapp/assets/javascripts/angular/templates/popup/reset-password.popup.html;T:	nameI"1angular/templates/popup/reset-password.popup;T:logical_pathI"6angular/templates/popup/reset-password.popup.html;T:content_typeI"text/html;T:sourceI"<div class="modal-header">
+    <button type="button" class="close" ng-click="close();" data-dismiss="modal">
+        <span aria-hidden="true">Ã—</span>
+        <span class="sr-only">Close</span>
+    </button>
+    <h4 class="modal-title" id="smallModalHead">Reset Password</h4>
+</div>
+<div class="modal-body">
+    <form name="resetPasswordForm" id="resetPasswordForm" ng-submit="reset_password(email,resetPasswordForm);" rc-validate novalidate>
+        <div class="clear20"></div>
+        <div class="form-group">
+            <input name="email" type="email" ng-model="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+        </div>
+        <div class="clear10"></div>
+        <button type="submit" class="btn btn-primary btn-block btn-lg btn-modal-white">Reset Password</button>
+        <div class="clear20"></div>
+    </form>
+    <!-- <div class="bottom-line-2">
+        Already a vKation's member? <a ng-click="authenticate();" style="cursor:pointer;" >Login</a>
+    </div> -->
+    <div class="clear10"></div>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"[file-digest://app/assets/javascripts/angular/templates/popup/reset-password.popup.html;TTF:charsetI"
+utf-8;F:digest"%7[ÙèAã81a L,¯tCÔIÉŠ‚qrÚó›}şŸâ˜:lengthi:dependencies_digest"%èì:R†Ájã½ÿÒ{÷
+ëä~“Ã°k`‘Rm´I¡ê:idI"E4bb48873e4981e87c49850f53d5f99a6970f52737d056087cc6197f2de278f7a;F:
+mtimel+46W

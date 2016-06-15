@@ -1,0 +1,37 @@
+{:uriI"”file://app/assets/javascripts/angular/templates/main/_header.html?type=text/html&id=f7895d812222874c83e3414fa54828d6d28f387d86d8e968223d962c0ea425dc:ET:load_pathI"app/assets/javascripts;T:filenameI"?app/assets/javascripts/angular/templates/main/_header.html;T:	nameI"#angular/templates/main/_header;T:logical_pathI"(angular/templates/main/_header.html;T:content_typeI"text/html;T:sourceI"ˆ<div class="container-fluid">
+
+				<div class="row margin-0 border-bottom-grey">
+
+					<div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
+						<div class="text-left eorr-header-left">
+							<a href="#/index"><img src="assets/vkation.png" class="img-responsive"></a>
+						</div>
+					</div>
+
+					<div class="col-lg-9 col-md-4 col-sm-4 col-xs-4">
+						<div class="header-search-wrapper">
+							<i class="fa fa-search fa-fw"></i>
+							<input id="place" name="place" class="form-control header-search" value="Coorg">
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 text-center line-before-after">
+						<button class="btn btn-default btn-sm btn-header">MODIFY</button>
+					</div>
+
+					<div class="col-lg-1 col-md-3 col-sm-3 col-xs-3 text-center">
+
+						<div class="user-info dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">John Doe <i class="fa fa-circle-o fa-fw"></i></a>
+							<ul class="dropdown-menu pull-right">
+								<li class="show320"><a href="#">Modify</a></li>
+								<li><a href="#">Settings</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+
+					</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Mfile-digest://app/assets/javascripts/angular/templates/main/_header.html;TTF:charsetI"
+utf-8;F:digest"%7XÙ}P}ó›#åGã©àY'õ™V„Mv”½}İ{®:lengthiˆ:dependencies_digest"%ø«bˆ*Ó¶¾U$ˆëz×›Ä/ï@¥dÒ³2ç¤<':idI"Ef7895d812222874c83e3414fa54828d6d28f387d86d8e968223d962c0ea425dc;F:
+mtimel+46W

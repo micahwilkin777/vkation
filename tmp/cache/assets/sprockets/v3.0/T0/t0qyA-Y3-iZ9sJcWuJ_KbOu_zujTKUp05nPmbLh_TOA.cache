@@ -1,0 +1,24 @@
+{:uriI"ïfile://app/assets/javascripts/angular/templates/checkout/_map.html?type=text/html&id=63131f18fd831cd4a0d868d6324a0d6636978fada0efbff2130624deb476f74e:ET:load_pathI"app/assets/javascripts;T:filenameI"@app/assets/javascripts/angular/templates/checkout/_map.html;T:	nameI"$angular/templates/checkout/_map;T:logical_pathI")angular/templates/checkout/_map.html;T:content_typeI"text/html;T:sourceI"Ù<div id="googleMap">
+    <ng-map class=map style="height:100% !important" zoom="8" center="[{{hotel.latitude}}, {{hotel.longitude}}]">
+        <directions ng-repeat="attraction in attractions"
+                    draggable="true"
+                    travel-mode="DRIVING"
+                    origin="{{hotel.latitude}}, {{hotel.longitude}}"
+                    destination="{{attraction.info.latitude}}, {{attraction.info.longitude}}">
+        </directions>
+        <custom-marker ng-repeat="attraction in attractions"
+                       position="{{attraction.info.latitude}}, {{attraction.info.longitude}}">
+            <i class="fa fa-map-marker point-details orange-point" style="top: 400px; left: 150px;">
+            </i>
+            <div class="point-info-block clearfix">
+                <div style="text-align:center">{{attraction.info.name}}</div>
+            </div>
+        </custom-marker>
+        <marker position="{{hotel.latitude}}, {{hotel.longitude}}">
+        </marker>
+    </ng-map>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Nfile-digest://app/assets/javascripts/angular/templates/checkout/_map.html;TTF:charsetI"
+utf-8;F:digest"%X∏!!ç®Æ+¥¸Ÿı ‘há?yáî2à{(ñZﬁÕ}:lengthiÙ:dependencies_digest"%ÁsTx>Òâ¿‹C{¿âÅa‰8~6Åäf◊õúuURÿ:idI"E63131f18fd831cd4a0d868d6324a0d6636978fada0efbff2130624deb476f74e;F:
+mtimel+46W
