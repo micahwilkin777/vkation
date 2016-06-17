@@ -11,9 +11,11 @@ function LoginCtrl($rootScope, $scope, $state, $localStorage, toastr, $uibModalI
     }
 
     $scope.authenticate = function(form) {
+        
         if (!form.$valid) {
             return;
         }
+
         $scope.buttonText = "Please wait ...";
         $scope.errorMessage = "";
         $scope.isWorking = true;
