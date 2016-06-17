@@ -1,8 +1,10 @@
 vKation.directive('isUnique', ['$http', '$q', function($http, $q) {
     return {
+
         restrict: 'A',
         require: 'ngModel',
         link: function(scope, element, attrs, ngModel) {
+
             var canceller = null;
             element.bind('keyup', function (e) {
                 
@@ -26,7 +28,7 @@ vKation.directive('isUnique', ['$http', '$q', function($http, $q) {
                 }
                 
                 $http.get(attrs.uniqueUrl + "?" + attrs.uniqueParam + "=" + currentValue)
-                .success(function (response, status, header, config) {
+                .success(function (response,   status, header, config) {
                     if (currentValue === element.val()) {
                           ngModel.$setValidity('unique', !response.exists);
                     }
