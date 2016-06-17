@@ -1,6 +1,5 @@
 function LoginCtrl($rootScope, $scope, $state, $localStorage, toastr, $uibModalInstance, UserService) {
 
-
     "use strict";
 
     (function() {
@@ -35,7 +34,6 @@ function LoginCtrl($rootScope, $scope, $state, $localStorage, toastr, $uibModalI
             });
     }
 
-
     $scope.fbLogin = function() {
         $uibModalInstance.close("fb-login");
     }
@@ -49,7 +47,6 @@ function LoginCtrl($rootScope, $scope, $state, $localStorage, toastr, $uibModalI
     }
 
 };
-
 
 vKation.controller('LoginCtrl', LoginCtrl);
 LoginCtrl.$inject = ['$rootScope'
